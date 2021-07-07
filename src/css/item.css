@@ -1,0 +1,203 @@
+.item-drawer {
+    width: 500px;
+    background: rgb(34, 34, 34);
+    height: 100vh;
+    padding: 50px;
+    display: grid;
+}
+.img-drawer {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.item-nome-drawer {
+    margin: 0;
+    color: white;
+    font-size: 19pt;
+    font-weight: 800;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.item-qtd-drawer {
+    margin: auto;
+    color: white;
+    font-size: 9pt;
+    margin-left: -37px;
+}
+.item-preco-drawer {
+    margin: 0;
+    color: rgb(24, 24, 24);
+    font-size: 12pt;
+    font-weight: 700;
+    margin-right: 50px;
+    padding: 8px;
+    background: white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+.item-desc-drawer {
+    color: white;
+    font-size: 9pt;
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(143, 6, 235);
+}
+.icon-add {
+    color: white;
+    margin-top: 10px;
+    margin-left: 22px;
+    transition: 0.2s;
+}
+.icon-add:hover {
+    color: white;
+    cursor: pointer;
+}
+.item-adi-drawer {
+    color: white;
+    font-size: 9pt;
+}
+.check-div {
+    margin-top: -15px;
+    margin-left: -10px;
+}
+.checkbox-title {
+    color: white;
+    font-size: 10pt;
+}
+.obs-title {
+    color: white;
+    font-size: 9pt;
+    margin: 0;
+}
+#obs {
+    height: 120px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.527);
+    color: white;
+    font-size: 10pt;
+}
+#add-cart {
+    width: 200px;
+    border-radius: 60px;
+    font-size: 10pt;
+    margin-top: 20px;
+    padding: 4px;
+}
+.close-drawer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 22pt;
+}
+.close-drawer:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .item-drawer {
+        width: 500px;
+        background: rgb(34, 34, 34);
+        height: auto;
+        padding: 30px;
+    }
+    .img-drawer {
+        width: 120px;
+        height: 120px;
+        border-radius: 100px;
+        margin-top: 30px;
+    }
+    .item-nome-drawer {
+        margin: 0;
+        color: white;
+        font-size: 19pt;
+        font-weight: 800;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    #add-cart {
+        width: 200px;
+        border-radius: 60px;
+        font-size: 10pt;
+        margin-top: 20px;
+        margin-bottom: 6px;
+        padding: 4px;
+    }
+}
+@media (max-width: 900px) {
+    .item-drawer {
+        width: 100%;
+        background: rgb(34, 34, 34);
+        height: 100%;
+        padding: 20px;
+    }
+    .img-drawer {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-top: 30px;
+    }
+    .item-nome-drawer {
+        margin: 0;
+        color: white;
+        font-size: 17pt;
+        font-weight: 800;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .item-qtd-drawer {
+        margin: auto;
+        color: white;
+        font-size: 9pt;
+        margin-left: -37px;
+        margin-right: 10px;
+    }
+    .item-preco-drawer {
+        margin: 0;
+        color: rgb(24, 24, 24);
+        font-size: 12pt;
+        font-weight: 900;
+        margin-right: 50px;
+        padding: 5px;
+        background: white;
+        border-radius: 20px;
+        width: 100px;
+        text-align: center;
+    }
+    .item-desc-drawer {
+        color: white;
+        font-size: 9pt;
+        margin-top: 10px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        background: rgb(143, 6, 235);
+    }
+    .icon-add {
+        color: white;
+        margin-top: 10px;
+        margin-left: 18px;
+        transition: 0.2s;
+        font-size: 17pt
+    }
+    .icon-add:hover {
+        color: white;
+        cursor: pointer;
+    }
+    .item-adi-drawer {
+        color: white;
+        font-size: 9pt;
+    }
+    #obs {
+        height: 90px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.527);
+        color: white;
+        font-size: 10pt;
+    }
+}

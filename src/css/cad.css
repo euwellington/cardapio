@@ -1,0 +1,173 @@
+
+.header-cad {
+    background-image: url('../assets/fundomenu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.cad-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+@media (max-width: 1200px) {
+    .header-cad {
+        background-image: url('../assets/fundomenu.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 95vh;
+        width: 100%
+    }
+    .cad-title {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 30pt;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+}
+@media (max-width: 900px) {
+    .header-cad {
+        background-image: url('../assets/fundomenu.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 65vh;
+    }
+}
+
+/* PIZZAS ************ */
+.pizzas {
+    margin-top: -350px;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 15pt;
+    text-align: center;
+}
+.box-item {
+    padding: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.63);
+    width: auto;
+    margin: 0px;
+    margin-right: 0px;
+}
+.item-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+.item-nome {
+    font-size: 13pt;
+    font-weight: 700;
+    margin: 0;
+}
+.item-desc {
+    font-size: 9pt;
+    width: 250px;
+    margin: 0;
+    line-height: 13px;
+}
+.item-preco {
+    font-weight: 800;
+    font-size: 17pt;
+}
+#add {
+    border: 0;
+    padding: 8px;
+    background: rgb(194, 10, 240);
+    border-radius: 60px;
+    color: white;
+    margin-left: 10px;
+    font-size: 10pt;
+    transition: 0.2s;
+}
+#detal {
+    border: 0;
+    padding: 8px;
+    background: rgb(240, 110, 10);
+    border-radius: 60px;
+    font-size: 10pt;
+    transition: 0.2s;
+    color: white;
+}
+#add:hover, #detal:hover {
+    transition: 0.2s;
+    transform: scale(1.0350)
+}
+.baf {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+@media (max-width: 1200px) {
+    .pizzas {
+        margin-top: -280px;
+        padding: 20px;
+        font-weight: 800;
+        font-size: 15pt;
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    .pizzas {
+        margin-top: -200px;
+        padding: 20px;
+        font-weight: 800;
+        font-size: 15pt;
+        text-align: center;
+    }
+    .box-item {
+        padding: 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0);
+        width: auto;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* DRINKS ******** */
+.drink-div {
+    background: rgb(169, 13, 221);
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    /* box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.315); */
+}
+.drinks {
+    padding: 8px;
+    font-weight: 800;
+    font-size: 15pt;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+#btn-drink {
+    margin-bottom: 20px;
+}
+/* AÇAÍ ********** */
+
+.acai {
+    padding: 8px;
+    font-weight: 800;
+    font-size: 15pt;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.end-cad {
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-top: 50px;
+}

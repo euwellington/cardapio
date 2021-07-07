@@ -1,0 +1,31 @@
+.footer {
+    background: rgba(255, 89, 0, 0.399);
+    width: 100%;
+    height: 300px;
+}
+.footer-box {
+    padding: 50px;
+}
+.logo-footer {
+    height: 100px;
+}
+.item-title-footer {
+    font-weight: 800;
+
+}
+.item-footer {
+    margin: 4px;
+    font-size: 10pt;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+.item-footer:hover {
+    color: black;
+}
+.dev {
+    font-size: 8pt;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -30px;
+}

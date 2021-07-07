@@ -1,0 +1,107 @@
+.menu {
+    width: 100%;
+}
+.logo-menu {
+    height: 80px;
+    margin-left: 50px;
+}
+.menu-right {
+    margin-right: 110px;
+    display: grid;
+}
+.item {
+    margin: auto;
+    margin-left: 30px;
+    font-size: 10pt;
+    color: rgba(0, 0, 0, 0.808);
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    transition: 0.2s;
+}
+.item:hover {
+    background: rgba(255, 89, 0, 0.802);
+    transition: 0.2s;
+    padding: 8px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 60px;
+    text-align: center;
+    width: 100px;
+}
+.active {
+    padding: 8px;
+    background: rgba(255, 89, 0, 0.802);
+    color: white;
+    border-radius: 60px;
+    width: 100px;
+    text-align: center;
+}
+.drawer-res {
+    display: none;
+}
+.btn-drawer {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .content-menu {
+        display: none;
+    }
+    .logo-menu {
+        height: 60px;
+        margin-left: 20px;
+    }
+    .menu-right {
+        margin-right: 30px;
+    }
+    .item {
+        margin: auto;
+        margin-left: 10px;
+        font-size: 10pt;
+        color: rgba(0, 0, 0, 0.808);
+        text-decoration: none;
+        width: 50px;
+        text-align: center;
+        display: none;
+        transition: 0.2s;
+    }
+    .btn-drawer {
+        display: block;
+        font-size: 18pt;
+        margin: auto;
+        margin-right: 30px;
+        transition: 0.2s;
+    }
+    .btn-drawer:active {
+        transform: scale(1.0450);
+        transition: 0.2s;
+    }
+    .menures {
+        padding: 0px;
+        width: 220px;
+        margin-top: 100px;
+    }
+    .div-item-res {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .item-res {
+        text-decoration: none;
+        padding-left: 28px;
+        padding: 8px;
+        padding-right: 100%;
+        color: rgba(0, 0, 0, 0.856);
+        font-size: 10pt;
+    }
+    .activeres {
+        padding: 8px;
+        padding-left: 108px;
+        background: rgba(255, 89, 0, 0.802);
+        color: white;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        width: 100%;
+        padding-right: 20px;
+        text-align: center;
+    }
+}
